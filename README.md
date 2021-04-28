@@ -1,24 +1,63 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Micro-reddit
 
-Things you may want to cover:
+> Built with Ruby on Rails with more emphasis on ActiveRecord 
 
-* Ruby version
 
-* System dependencies
+Additional description about the project and its features.
 
-* Configuration
+We created three models namely **User**, **Post** ,**Comment** and used our knowledge of Active Record to set up Validations and Associations on each of the models.
 
-* Database creation
+## Built With
 
-* Database initialization
+- Ruby on Rails --v 6.1.3
+- Ruby --v 3.0.0
+- SQL
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+To get a local copy up and running follow these simple example steps.
 
-* Deployment instructions
+Clone the repository by running ```git clone https://github.com/crappypapa/micro_reddit.git``` in the directory you wish to clone into.
 
-* ...
+Or download the Zip folder at ```https://github.com/crappypapa/micro_reddit/archive/refs/heads/develop.zip```
+
+run  ```yarn ```
+
+run ```bundle```
+
+run ```rails c ``` to open rails  console and be able to interact with the models.
+
+You can also ```require hirb``` in the console and run ```Hirb.enable``` to have a nice display of the data.
+
+## Authors
+
+👤 **Stephanie Sakuhuni**
+
+- GitHub: [@Stephanie](https://github.com/Stephanie041996)
+
+
+👤 **Muhammad Ahtsham**
+
+- GitHub: [@Muhammad](https://github.com/mahtsham)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- The Odin Project
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
